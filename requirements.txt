@@ -118,11 +118,19 @@ websockets==15.0.1
 wrapt==1.17.2
 zipp==3.21.0
 zstandard==0.23.0
+
+# Core dependencies
 streamlit
 openai
 langchain
 PyPDF2
-chromadb
-pandas
 nest_asyncio
+pandas
+
+# Embeddings & Vector DB
 sentence-transformers
+chromadb
+
+# Optional if used
+requests
+tqdm
