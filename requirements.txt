@@ -125,3 +125,4 @@ PyPDF2
 chromadb
 pandas
 nest_asyncio
+sentence-transformers
